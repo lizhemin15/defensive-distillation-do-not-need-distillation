@@ -11,6 +11,7 @@ ature is designed.
 
 # How to use
 * Replace your files in C:\Users\***\Anaconda3\Lib\site-packages\keras\layers\advanced_activations.py
+* Or linux:/home/lzm/miniconda3/envs/tf1.12/lib/python3.6/site-packages/keras
 * You can test our result by training the models with train_mnist.py, this codes will generate some h5 files. 
 * Then, run test_adv.py.
 * Finally you will get some txt which record in test_acc, adv_acc, max_logits, sec_logits, max_gradient.
